@@ -6,7 +6,7 @@ This repository contains the source code and assets for my personal portfolio we
 ## Technologies Used
 - **Next.js**: Framework for building the website.
 - **React**: Frontend library for creating interactive UI.
-- **CSS/SCSS**: For styling the website.
+- **Tailwind CSS**: For styling the website.
 - **Other Technologies**: Will update this section as features are added.
 
 ## Features
