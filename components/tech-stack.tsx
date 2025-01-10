@@ -7,7 +7,9 @@ import { FaN, FaT } from 'react-icons/fa6';
 const TechStack = () => {
   return (
     <div>
-        <div className='text-white text-7xl text-center m-10'>My Tech Stack</div>
+        <div className='text-white text-7xl text-center m-10' id='about'>My Tech 
+            <span className='text-purple-500'> Stack</span>
+        </div>
         <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         <Button
             duration={Math.floor(Math.random() * 10000) + 10000}
