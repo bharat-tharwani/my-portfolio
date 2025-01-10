@@ -30,7 +30,7 @@ export const companies = [
       nameImg: "/dockerName.svg",
     },
   ];
-  
+
 export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },

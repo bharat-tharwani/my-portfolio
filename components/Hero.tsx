@@ -3,9 +3,14 @@ import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collisi
 import { Spotlight } from './ui/spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton from './magic-button'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaArrowAltCircleUp, FaCloudDownloadAlt, FaDownload, FaLocationArrow } from 'react-icons/fa'
+import { FaArrowDownUpAcrossLine, FaArrowDownUpLock, FaArrowUpRightDots, FaSquareArrowUpRight } from 'react-icons/fa6'
 
 const Hero = () => {
+const handleOpenPdf = () => {
+	const pdfUrl = '/image.jpg'; // Replace with your PDF URL
+	window.open(pdfUrl, '_blank'); // Opens the PDF in a new tab
+	};
   return (
 		<div className='' id='home'>
 			<div>
@@ -39,11 +44,11 @@ const Hero = () => {
 							/>
 						</a> */}
 					</div>
-					<div className=''>
-						<a href="#about" className=''>
+					<div className='group'>
+						<a href="./sample.pdf" className='' target='_blank'>
 							<MagicButton
-							title="Show my work"
-							icon={<FaLocationArrow />}
+							title="Get My Resume"
+							icon={<FaSquareArrowUpRight className='text-lg group-hover:scale-150 transform duration-1000' />}
 							position="right"
 							/>
 						</a>
