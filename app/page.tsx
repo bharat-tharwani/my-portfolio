@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import { MyJourney } from "@/components/my-journey";
 import TechStack from "@/components/tech-stack";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="w-full">
         <Hero />
         <TechStack />
+        <MyJourney />
       </div>
     </main>
   );
