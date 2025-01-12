@@ -69,22 +69,22 @@ const Footer = () => {
             <div
               className="group hover:scale-125 transform duration-1000 w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <FaGithub className="h-6 w-6 text-white group-hover:text-purple-400" />
+              <a href="https://github.com/bharat-tharwani" target="_"><FaGithub className="h-6 w-6 text-white" /></a>
             </div>
             <div
               className="group hover:scale-125 transform duration-1000 w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <FaLinkedin className="h-6 w-6 text-white group-hover:text-purple-400" />
+              <a href="https://www.linkedin.com/in/btharwani92/" target="_"><FaLinkedin className="h-6 w-6 text-[#0D62BC]" /></a>
             </div>
             <div
               className="group hover:scale-125 transform duration-1000 w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <FaFacebook className="h-6 w-6 text-white group-hover:text-purple-400" />
+              <a href="https://www.instagram.com/bharat.png/" target="_"><FaInstagram className="h-6 w-6 text-[#AB08E5]" /></a>
             </div>
             <div
               className="group hover:scale-125 transform duration-1000 w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <FaInstagram className="h-6 w-6 text-white group-hover:text-purple-400" />
+              <a href="https://www.facebook.com/bunny6992" target="_"><FaFacebook className="h-6 w-6 text-[#179AF1]" /></a>
             </div>
         </div>
       </div>

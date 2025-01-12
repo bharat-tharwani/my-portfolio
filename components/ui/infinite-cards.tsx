@@ -151,6 +151,26 @@ export const InfiniteMovingCards = ({
               />
             </div>
           </li>
+          <li className="w-[30vw] relative rounded-2xl border border-b-0
+             flex-shrink-0 border-slate-800 p-5"
+            style={{
+
+              background: "rgb(4,7,29)",
+              backgroundColor:
+                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+            }}
+          >
+            <div>
+              <h1 className="text-xl text-purple-400 text-center tracking-widest mb-5">Chess</h1>
+              <Image
+                src="/chess_animated.gif"
+                alt="startup template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </div>
+          </li>    
 
           <li className="w-[30vw] relative rounded-2xl border border-b-0
              flex-shrink-0 border-slate-800 p-5"

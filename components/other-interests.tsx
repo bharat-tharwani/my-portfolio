@@ -18,7 +18,7 @@ const OtherInterests = () => {
         >
           <InfiniteMovingCards
             direction="left"
-            speed="normal"
+            speed="fast"
           />
         </div>
       </div>
