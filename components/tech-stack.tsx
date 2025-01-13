@@ -10,7 +10,7 @@ const TechStack = () => {
         <div className='text-white text-7xl text-center m-10' id='about'>My Tech 
             <span className='text-purple-500'> Stack</span>
         </div>
-        <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+        <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 px-6">
         <Button
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius="1.75rem" className="text-white border-slate-800 bg-gradient-to-r from-slate-850 to-slate-950"

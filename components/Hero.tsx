@@ -3,14 +3,9 @@ import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collisi
 import { Spotlight } from './ui/spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton from './magic-button'
-import { FaArrowAltCircleUp, FaCloudDownloadAlt, FaDownload, FaLocationArrow } from 'react-icons/fa'
-import { FaArrowDownUpAcrossLine, FaArrowDownUpLock, FaArrowUpRightDots, FaSquareArrowUpRight } from 'react-icons/fa6'
+import { FaSquareArrowUpRight } from 'react-icons/fa6'
 
 const Hero = () => {
-const handleOpenPdf = () => {
-	const pdfUrl = '/image.jpg'; // Replace with your PDF URL
-	window.open(pdfUrl, '_blank'); // Opens the PDF in a new tab
-	};
   return (
 		<div className='' id='home'>
 			<div>
@@ -20,7 +15,7 @@ const handleOpenPdf = () => {
 				<Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
 			</div>
 			
-			<div className=''>
+			<div className='h-screen'>
 				<BackgroundBeamsWithCollision>
 				<div className="flex flex-col justify-center items-center my-20 z-10 gap-5">
 					<div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-2 items-center justify-center">
