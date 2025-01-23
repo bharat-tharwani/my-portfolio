@@ -24,19 +24,18 @@ const Hero = () => {
       <div className="h-screen">
         <BackgroundBeamsWithCollision>
           <div className="flex flex-col justify-center items-center my-20 z-10 gap-5">
-            <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-2 items-center justify-center">
-              <p className="uppercase tracking-widest text-md text-center text-blue-100 max-w-100">
+            <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col gap-12 md:gap-2 items-center justify-center">
+              <p className="uppercase tracking-widest text-sm md:text-md text-center text-blue-100 max-w-100">
                 I <span className="text-purple-400">instruct</span> machines to
-                build <span className="text-purple-400">beautiful</span> things-
-                like this <span className="text-purple-400">one</span>
+                build <span className="text-purple-400">beautiful</span> things!
               </p>
               <TextGenerateEffect
                 words="Hey, I am Bharat!"
-                className="text-center text-[40px] md:text-5xl lg:text-7xl tracking-widest"
+                className="text-center text-4xl md:text-5xl lg:text-7xl tracking-widest"
                 duration={5}
               />
 
-              <p className="uppercase tracking-widest text-md text-center text-blue-100 max-w-80">
+              <p className="uppercase tracking-widest text-sm md:text-md text-center text-blue-100 max-w-80">
                 A Full Stack
                 <span className="text-purple-400"> Web </span>Developer.
               </p>
@@ -48,7 +47,7 @@ const Hero = () => {
 							/>
 						</a> */}
             </div>
-            <div className="group">
+            <div className="group mt-8 md:mt-0">
               <a href="./sample.pdf" className="" target="_blank">
                 <MagicButton
                   title="Get My Resume"

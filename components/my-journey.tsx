@@ -25,33 +25,33 @@ export function MyJourney() {
             coding skills using platforms like LeetCode, solving diverse
             problems to strengthen my problem-solving abilities. <br />
           </p>
-          <div className="mb-4 flex gap-4">
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+          <div className="mb-4 flex gap-4 flex-wrap">
+            <div className="min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Java
             </div>
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               DSA
             </div>
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Python
             </div>
-            <div className="w-40 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-40 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Machine Learning
             </div>
-            <div className="w-36 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-36 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Deep Learning
             </div>
-            <div className="w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               JavaScript
             </div>
-            <div className="w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Node.js
             </div>
-            <div className="w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Express.js
             </div>
           </div>
-          <div>
+          <div className="mt-8">
             <Image
               src="/newpaltz.jpg"
               alt="startup template"
@@ -89,32 +89,32 @@ export function MyJourney() {
             client and server.
             <br />
           </p>
-          <div className="mb-4 flex gap-4">
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+          <div className="mb-4 flex gap-4 flex-wrap">
+            <div className="min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Java
             </div>
-            <div className="w-28 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-28 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Spring Boot
             </div>
-            <div className="w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               JavaScript
             </div>
-            <div className="w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               React
             </div>
-            <div className="w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Vue.js
             </div>
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               PHP
             </div>
-            <div className="w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               MySQL
             </div>
-            <div className="w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Laravel
             </div>
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               AWS
             </div>
           </div>
@@ -145,27 +145,27 @@ export function MyJourney() {
             and inventory management software to manage both store and web
             inventory from a centralized platform. <br />
           </p>
-          <div className="mb-4 flex gap-4">
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+          <div className="mb-4 flex gap-4 flex-wrap">
+            <div className="min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Java
             </div>
-            <div className="w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               MySQL
             </div>
-            <div className="w-28 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-28 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Spring Boot
             </div>
-            <div className="w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               JavaScript
             </div>
-            <div className="w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               React
             </div>
-            <div className="w-32 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-32 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Digital Ocean
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 mt-8">
             <Image
               src="/misfit_1.jpg"
               alt="startup template"
@@ -209,30 +209,30 @@ export function MyJourney() {
             with clients to ensure timely delivery of bug fixes and new
             features, improving site performance and user satisfaction. <br />
           </p>
-          <div className="mb-4 flex gap-4">
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+          <div className="mb-4 flex gap-4 flex-wrap">
+            <div className="min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               PHP
             </div>
-            <div className="w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               MySQL
             </div>
-            <div className="w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Laravel
             </div>
-            <div className="w-40 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
-              Adobe Commerce
-            </div>
-            <div className="w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               JavaScript
             </div>
-            <div className="w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-40 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+              Adobe Commerce
+            </div>
+            <div className="min-w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               Vue.js
             </div>
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="w-16 min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               AWS
             </div>
           </div>
-          <div>
+          <div className="mt-8">
             <Image
               src="/ranium.png"
               alt="startup template"
@@ -267,20 +267,20 @@ export function MyJourney() {
             on the services provided and the quality of work.
             <br />
           </p>
-          <div className="mb-4 flex gap-4">
-            <div className="w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+          <div className="mb-4 flex gap-4 flex-wrap items-start justify-start">
+            <div className="min-w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               JavaScript
             </div>
-            <div className="w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-24 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               jQuery
             </div>
-            <div className="w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-16 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               PHP
             </div>
-            <div className="w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-20 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               MySQL
             </div>
-            <div className="w-28 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
+            <div className="min-w-28 text-center text-purple-500 rounded-lg border border-slate-500 p-1">
               CodeIgniter
             </div>
           </div>

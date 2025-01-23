@@ -35,18 +35,21 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   return (
     <div
       className="w-full bg-black-100 font-sans md:px-10"
-      ref={containerRef} id="experience"
+      ref={containerRef}
+      id="experience"
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-white max-w-4xl">
-            A Sneak Peek into My 
-            <span className='text-purple-500'> Software Development </span>
-            Journey
+      <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
+        <h2 className="text-lg md:text-2xl lg:text-4xl mb-4 text-white max-w-4xl">
+          A Sneak Peek into My
+          <span className="text-purple-500"> Software Development </span>
+          Journey
         </h2>
-        <p className="text-neutral-300 text-sm md:text-base max-w-3xl">
-          I&apos;ve been coding since 2015, starting with CSS and growing into Tailwind, Vanilla JS to React, 
-          and PHP to Java Spring Boot. It&apos;s been over half a decade working as a developer in the industry. 
-          Here&apos;s a timeline of my journey.
+        <p className="text-neutral-300 mx-5 text-sm md:text-base max-w-3xl">
+          I started coding in 2015, beginning with HTML and CSS, and gradually
+          advancing from Vanilla JavaScript to Vue and then React, while also
+          transitioning from PHP and Laravel to Java and Spring Boot. With over
+          half a decade of experience as a developer in the industry, here’s a
+          timeline of my journey.
         </p>
       </div>
 
@@ -60,7 +63,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-black flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-800 border border-neutral-700 p-2" />
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 ">
+              <h3 className="hidden md:block text-xl md:pl-20 md:text-3xl lg:text-5xl font-bold text-neutral-500 ">
                 {item.title}
               </h3>
             </div>
