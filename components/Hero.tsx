@@ -39,16 +39,13 @@ const Hero = () => {
                 A Full Stack
                 <span className="text-purple-400"> Web </span>Developer.
               </p>
-              {/* <a href="#about" className=''>
-							<MagicButton
-							title="Show my work"
-							icon={<FaLocationArrow />}
-							position="right"
-							/>
-						</a> */}
             </div>
             <div className="group mt-8 md:mt-0">
-              <a href="./sample.pdf" className="" target="_blank">
+              <a
+                href="./Bharat_Tharwani_Resume.pdf"
+                className=""
+                target="_blank"
+              >
                 <MagicButton
                   title="Get My Resume"
                   icon={
