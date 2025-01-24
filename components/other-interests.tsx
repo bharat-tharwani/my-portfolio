@@ -7,7 +7,7 @@ const OtherInterests = () => {
   return (
     <section id="beyond" className="pt-8 md:py-20">
       <h1 className="heading text-4xl md:text-5xl text-white text-center">
-        Beyond
+        Beside
         <span className="text-purple-500"> Development</span>
       </h1>
 
