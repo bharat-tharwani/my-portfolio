@@ -1,10 +1,14 @@
 "use client";
-import { FaGit, FaLinkedin, FaLocationArrow } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 import MagicButton from "./magic-button";
 import { FaCopy, FaFacebook, FaGithub, FaInstagram } from "react-icons/fa";
 import { useState } from "react";
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 import animationData from "@/data/confetti.json";
+import dynamic from "next/dynamic";
+
+// Dynamically import Lottie component and disable SSR
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 const Footer = () => {
   const [copied, setCopied] = useState(false);
