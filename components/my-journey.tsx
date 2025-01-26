@@ -299,19 +299,6 @@ export function MyJourney() {
             Completed My Undergraduate degree in Electronics from YCCE at
             Nagpur, India{" "}
           </h1>
-          <p className="text-neutral-200 text-md md:text-lg font-normal mb-8">
-            <FaCheck className="inline mr-1 text-purple-500" /> Completed
-            Master's degree in Computer Science from SUNY, New Paltz <br />
-            <FaCheck className="inline mr-1 text-purple-500" /> Worked as a
-            Teaching Assistant for a year, where I mentored undergraduate
-            students, graded assignments, and facilitated discussions to help
-            them understand complex programming concepts. <br />
-            <FaCheck className="inline mr-1 text-purple-500" /> Built a deep
-            learning model to predict stock price movements. <br />
-            <FaCheck className="inline mr-1 text-purple-500" /> Improved my
-            coding skills using platforms like LeetCode, solving diverse
-            problems to strengthen my problem-solving abilities. <br />
-          </p>
           <div>
             <Image
               src="/undergraduate.png"
